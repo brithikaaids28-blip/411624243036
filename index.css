@@ -1,0 +1,51 @@
+body{
+    color:greenyellow;
+    background-color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+    font-style:italic;
+}
+img{
+    height:500px;
+    width:500px;
+   
+}
+@media (max-width:600px){
+    img{
+        height:auto;
+        width:100%;
+    }
+}
+video{
+    width:100%;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+ul{
+    list-style-type:disc;
+}
+table,th,td{
+    border:1px solid white;
+    border-collapse: collapse;
+}
+button:hover{
+    background-color: pink;
+}
+.pclass{
+    font-size: xx-large;
+}
+nav{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+}
+.grid{
+    diaplay: grid;
+    grid-template-colums: 1fr 1fr 1fr;
+    
+}
+
