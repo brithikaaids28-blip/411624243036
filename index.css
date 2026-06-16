@@ -43,6 +43,12 @@ nav{
     flex-direction:row;
     gap: 50px;
 }
+@media(min-width:1024){
+    nav{
+        display:flex;
+        
+    }
+}
 .grid{
     diaplay: grid;
     grid-template-colums: 1fr 1fr 1fr;
